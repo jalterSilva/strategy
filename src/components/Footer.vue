@@ -1,6 +1,6 @@
 <template>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
             <div class="container-fluid">
                 <div class="row text-muted">
                     <div class="col-12 text-center">
@@ -10,6 +10,18 @@
                     </div>
                 </div>
             </div>
+    </footer> -->
+
+     <footer class="footer">
+        <div class="container-fluid">
+            <div class="row text-muted">
+                <div class="col-12 text-center">
+                    <p class="mb-0">
+                        <span>&copy; Strategy - {{date}}</span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </footer>
 
 </template>
@@ -19,7 +31,7 @@
 export default{
     name:"Footer",
     props:{
-       date: String
+       date: Number
     }
    
 }

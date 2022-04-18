@@ -1,5 +1,23 @@
 <template>
     <div class="main-container">
-        <h1>Users</h1>
+
+        <UsersIndex />
+
     </div>
 </template>
+
+<script>
+import UsersIndex from '../components/UsersIndex.vue'
+
+export default{
+    name: "Users",
+    components: {
+        UsersIndex
+    }
+}
+
+</script>
+
+<style scoped>
+
+</style>

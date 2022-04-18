@@ -19,8 +19,7 @@ export default{
       logo_src: "/img/logo.svg",
       app_name: "Strategy",
       dateTime: new Date().getFullYear(),
-    }
-    
+    }  
   }
 }
 
